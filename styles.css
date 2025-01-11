@@ -2,9 +2,49 @@ table {
     border-collapse: collapse;
   }
   td {
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
+    border: 1px solid crimson;
+    width: 100px;
+    height: 100px;
     text-align: center;
     font-size: 24px;
   }
+
+  html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+  }
+
+  .main{
+    height: 120%;
+    width:100%;
+    margin-top: -1.5%;
+    padding: 0%;
+    background-color:darkorange;
+    position: relative;
+  }
+
+  .main h1{
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 15%;
+  }
+  .main table{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 20%;
+  }
+
+  #print {
+    font-size: 24px;
+    color: #333;
+    /* background-color: crimson; */
+    margin-top: 10%;
+    margin-left: 50%;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
